@@ -21,14 +21,13 @@ body {
     width: 100%;
     text-align: center;
     padding: 20px;
-
 }
 
 .header h1 {
-    color: rgb(175, 43, 6);
+    color: rgb(117, 59, 43);
     font-size: 45px;
     margin-top: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .para {
@@ -43,23 +42,23 @@ body {
     flex-wrap: wrap;
     max-width: 800px;
     width: 100%;
-    margin-top: 20px;
     gap: 10px;
     min-height: 400px;
 }
 
-.content-left,
-.content-right {
+.left .right {
     padding: 20px;
     height: 100%;
 }
 
 .sub-main {
-    background-color: lightblue;
+    background-color: rgb(231, 239, 241);
     width: 100%;
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .right p{
@@ -81,7 +80,7 @@ body {
 .footer {
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: left;
 }
 
 .footer-image {
@@ -91,5 +90,5 @@ body {
 
 .image2 {
     width: 100%;
-    height: auto;
+    height: 380px;
 }
